@@ -1,0 +1,221 @@
+/* ==============================
+   Reset e base
+============================== */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* ==============================
+   Body como coluna flexível
+============================== */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ==============================
+   Header
+============================== */
+header {
+    background: linear-gradient(to right, #0D80BF, #E5050F);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 70px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    margin: 0;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+}
+
+/* ==============================
+   Main
+============================== */
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1; /* Faz o main ocupar todo o espaço restante */
+    padding: 2rem;
+    gap: 2rem; /* Espaçamento entre os cards */
+}
+
+/* ==============================
+   Cards
+============================== */
+.card-gremio, .card-inter {
+    border-radius: 12px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.card-gremio {
+    background-color: #14c5ec;
+    color: #000000;
+}
+
+.card-inter {
+    background-color: #e4121d;
+    color: #fff;
+}
+
+.inserir-placar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    margin: 1rem;
+}
+
+.dados-classico {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 0.5rem; 
+    margin-left: 1rem; 
+}
+
+.inserir-placar a {
+    text-decoration: none;       
+    background-color: #024600;   
+    color: #fff;                 
+    width: 120px;                
+    text-align: center;          
+    padding: 12px 0;             
+    border-radius: 12px;         
+    font-weight: bold;           
+    transition: all 0.3s ease;  
+}
+
+.inserir-placar a:hover {
+    background-color: #036600;   
+    transform: scale(1.05);      
+}
+
+.vs{
+    font-size: 70px;
+    font-weight: bold;
+
+    background: linear-gradient(to right, #0D80BF, #E5050F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+/* ==============================
+   CREATE
+============================== */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-placar {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+/* Inputs coloridos */
+.input-gremio {
+    border: 2px solid #0D80BF;
+    background-color: #e6f3ff;
+    border-radius: 8px;
+    padding: 10px;
+    outline: none;
+}
+
+.input-inter {
+    border: 2px solid #E5050F;
+    background-color: #ffe6e6;
+    border-radius: 8px;
+    padding: 10px;
+    outline: none;
+}
+
+.input-gremio:focus {
+    box-shadow: 0 0 5px #0D80BF;
+}
+
+.input-inter:focus {
+    box-shadow: 0 0 5px #E5050F;
+}
+
+/* Centraliza o botão */
+.botao-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+/* Botão estilizado */
+.botao-salvar {
+    background: #036600;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.botao-salvar:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+
+/* ==============================
+   Footer
+============================== */
+footer {
+    background: linear-gradient(to right, #0D80BF, #E5050F);
+    padding: 1rem;
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
