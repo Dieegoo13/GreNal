@@ -35,6 +35,10 @@ O sistema utiliza **PHP com padrão MVC** e **MySQL** para armazenar os resultad
   <span>JavaScript (Fetch API)</span>
 </div>
 <div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/composer/composer-original.svg" width="30px" />
+  <span>Composer</span>
+</div>
+<div>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="30px" />
   <span>PHP 8+ (MVC)</span>
 </div>
