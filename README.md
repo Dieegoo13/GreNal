@@ -53,7 +53,6 @@ git clone https://github.com/Dieegoo13/GreNal.git
 ````
 <h2 id="preview">📸 Preview do Projeto</h2>
 
-![Tela inicial](img/HomeGrenal.png)  
-
-![Tela de inserção de placares](img/placarGrenal.png)  
+![Tela inicial](public/img/HomeGrenal.png)
+![Tela de inserção de placares](public/img/placarGrenal.png)
 
